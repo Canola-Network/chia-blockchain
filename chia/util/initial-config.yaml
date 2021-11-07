@@ -335,7 +335,7 @@ full_node:
       port: 41959
   introducer_peer:
       host: introducer.canola.xyz  # Chia AWS introducer IPv4/IPv6
-      port: 41957
+      port: 41958
   wallet_peer:
     host: *self_hostname
     port: 41962
