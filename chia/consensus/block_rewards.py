@@ -4,7 +4,7 @@ from chia.util.ints import uint32, uint64
 _mojo_per_chia = 1000000
 _blocks_per_year = 1681920  # 32 * 6 * 24 * 365
 
-GENESIS_BLOCK_REWARD = 100
+GENESIS_BLOCK_REWARD = 180000000
 
 def calculate_pool_reward(height: uint32) -> uint64:
     """
